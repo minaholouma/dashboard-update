@@ -1,0 +1,12 @@
+  <br>
+  <h1>{{data.first_name}} {{data.last_name}}</h1>
+
+<mat-tab-group preserveContent>
+  <mat-tab label="profile">
+    <img mat-card-image src="{{data.avatar}}" alt="Photo of a Shiba Inu" width="560"height="315">
+  </mat-tab>
+  <mat-tab label="more details">
+    <h1>ID : {{data.id}}</h1>
+    <h2>EMAIL : {{data.email}}</h2>
+  </mat-tab>
+</mat-tab-group>
